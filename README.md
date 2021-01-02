@@ -1,19 +1,19 @@
-#AUTH-EXAMPLE-BACKEND 
+# AUTH-EXAMPLE-BACKEND 
 Example of authentication and authorization in NodeJS using Json Web Token.
 
-##Project Setup
+## Project Setup
 
 ```
 npm install
 ```
 
-##Configuration
+## Configuration
 
 Change the dbVariablesExample and dbVariablesExample files to:
 
 dbVariables and secretKey
 
-##Run Server
+## Run Server
 
 ```
 npm run dev

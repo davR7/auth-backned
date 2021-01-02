@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const { user, pass, host, port, db } = require('../config/db_variables')
+const { user, pass, host, port, db } = require('../config/dbVariables')
 
 const url = `mongodb://${user}:${pass}@${host}:${port}/${db}`
 const options = {

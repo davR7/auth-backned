@@ -1,4 +1,5 @@
 const mongoose = require('../index')
+const bcript = require('bcrypt')
 
 const userSchema = new mongoose.Schema({
     firstName: { 
@@ -24,6 +25,12 @@ const userSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
     }
+})
+
+userSchema.pre('save', async function(next){
+    const hash = await bcript.hash(this.password, 10)
+    this.password = hash
+    next()
 })
 
 module.exports = mongoose.model('User', userSchema)

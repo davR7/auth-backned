@@ -1,13 +1,19 @@
 #AUTH-EXAMPLE-BACKEND 
-Example authentication and authorization with JWT and Mongoose in NodeJS
+Example of authentication and authorization in NodeJS using Json Web Token.
 
-Project Setup
+##Project Setup
 
 ```
 npm install
 ```
 
-Run Server
+##Configuration
+
+Change the dbVariablesExample and dbVariablesExample files to:
+
+dbVariables and secretKey
+
+##Run Server
 
 ```
 npm run dev

@@ -22,5 +22,3 @@ app.listen(port, () => {
 App running at port:
 -> http://localhost:${port}`)
 })
-
-

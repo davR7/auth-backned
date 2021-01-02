@@ -1,5 +1,4 @@
 const passportJwt = require('../config/passportJwt')
-const userCtl = require('../controllers/userCtl')
 const authCtl = require('../controllers/authCtl')
 
 

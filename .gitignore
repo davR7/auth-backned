@@ -1,1 +1,3 @@
 node_modules/
+src/config/dbVariables.js
+src/config/secretKey.js
